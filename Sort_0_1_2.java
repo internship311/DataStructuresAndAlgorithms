@@ -1,4 +1,6 @@
-class Solution {
+// Leetcode Problem Number 75
+
+class Sort_0_1_2 {
     public void sortColors(int[] nums) {
         int curr = 0, start = 0, end = nums.length - 1;
         

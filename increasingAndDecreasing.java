@@ -1,4 +1,6 @@
-import java.io.*;
+// GFG Problem
+
+import java.util.*;
 
 class GFG {
     

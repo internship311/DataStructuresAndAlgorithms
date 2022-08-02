@@ -1,5 +1,7 @@
-class Solution {
-    public int search(int[] array, int value) {
+// Search in Rotated Sorted Array
+
+class SearchInRotatedArray {
+    public static int findNumber(int[] array, int value) {
         int start = 0, end = array.length - 1;
         
         while(start <= end) {
@@ -29,8 +31,7 @@ class Solution {
 
     public static void main(String args[]) 
     { 
-        int array[] = { 3,4, 5, 6, 7, 8, 9, 10, 1, 2}; 
-        int n = array.length; 
+        int array[] = { 3,4, 5, 6, 7, 8, 9, 10, 1, 2};
         int value = 2; 
         int i = findNumber(array, value); 
         if (i != -1) 
